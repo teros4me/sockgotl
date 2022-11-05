@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    
+    <title>Socknar på Gotland</title>
+    <script type="module" crossorigin src="/assets/index.af515312.js"></script>
+    <link rel="stylesheet" href="/assets/index.c5ba1625.css">
+  </head>
+  <body>
+    <header>
+      <h1>Socknar på Gotland</h1>
+    </header>
+    <main class="container">
+        <div class="sidebar">
+          <p>Välj&nbsp;en&nbsp;bakgrundskarta:</p>
+            <input type="radio" name="baseLayerRadioButton" value="OSMStandard" checked>OSM Standard<br>
+            <input type="radio" name="baseLayerRadioButton" value="OSMHumanitarian">OSM Humanitarian<br>
+            <input type="radio" name="baseLayerRadioButton" value="ESRISatellite">ESRI Satellite<br>
+        </div>
+      <div>
+        <div id="map" class="map"></div>
+      </div>
+      
+      <div class="overlay-container">
+        <span class="overlay-text" id="feature-name"></span><br>
+      </div>
+    
+      
+    </main>
+    <footer>
+      <p>&copy; 2022 - Skapad av: <a href="https://teros4me.github.io/cv/" target="_blank">Elijas Andersson</a></p>
+    </footer>
+  </body>
+</html>
